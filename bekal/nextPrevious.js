@@ -1,4 +1,6 @@
-var myImg= new Array(27)
+var numberOfPhotos = 68;
+
+var myImg= new Array(numberOfPhotos-1);
   myImg[0]= "IMG_7038";
   myImg[1]= "IMG_7044";
   myImg[2]= "IMG_7049";
@@ -27,6 +29,46 @@ var myImg= new Array(27)
   myImg[25]= "IMG_7108";
   myImg[26]= "IMG_7109";
   myImg[27]= "IMG_7112";
+  myImg[28]= "IMG_7034";
+  myImg[29]= "IMG_7031";
+  myImg[30]= "IMG_7028";
+  myImg[31]= "IMG_7026";
+  myImg[32]= "IMG_7022";
+  myImg[33]= "IMG_7021";
+  myImg[34]= "IMG_7015";
+  myImg[35]= "IMG_7010";
+  myImg[36]= "IMG_7000";
+  myImg[37]= "IMG_6714";
+  myImg[38]= "IMG_6710";
+  myImg[39]= "IMG_6709";
+  myImg[40]= "IMG_6708";
+  myImg[41]= "IMG_6707";
+  myImg[42]= "IMG_6705";
+  myImg[43]= "IMG_6704";
+  myImg[44]= "IMG_6655";
+  myImg[45]= "IMG_6658";
+  myImg[46]= "IMG_6659";
+  myImg[47]= "IMG_6663";
+  myImg[48]= "IMG_6667";
+  myImg[49]= "IMG_6672";
+  myImg[50]= "IMG_6673";
+  myImg[51]= "IMG_6676";
+  myImg[52]= "IMG_6679";
+  myImg[53]= "IMG_6685";
+  myImg[54]= "IMG_6687";
+  myImg[55]= "IMG_6692";
+  myImg[56]= "IMG_6900";
+  myImg[57]= "IMG_6904";
+  myImg[58]= "IMG_6906";
+  myImg[59]= "IMG_6913";
+  myImg[60]= "IMG_6916";
+  myImg[61]= "IMG_6918";
+  myImg[62]= "IMG_6922";
+  myImg[63]= "IMG_6926";
+  myImg[64]= "IMG_6929";
+  myImg[65]= "IMG_6931";
+  myImg[66]= "IMG_6932";
+  myImg[67]= "IMG_6935";
 
 myImgSrc = "";
 myImgEnd = ".jpg"
@@ -47,7 +89,7 @@ function prev() {
 }
 
 function next() {
-  if(i>26) {
+  if(i> (numberOfPhotos-2)) {
     var l = i;
   } else {
     l = i+=1;
