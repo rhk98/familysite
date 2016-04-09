@@ -1,0 +1,6 @@
+html, body { height: 100%; padding: 0; margin: 0; background: #DDD; }
+#divforImage { background: #DDD; width: 100%; height: 95%; margin-bottom: 5px;}
+#divforPrevNext { background: #AAA; width: 100%; height: 5%; }
+#divforPrev { background: #DDD; width: 50%; height: 100%; float: left;text-align: right;}
+#divforNext { background: #DDD; width: 50%; height: 100%; float: right;}
+#imgSrc { display: block; margin-left: auto; margin-right: auto; }
