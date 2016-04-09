@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document*/
+#title {
+text-align:center;
+font-size:40px;
+font-family:'Sans-serif',Arial;
+}
+.tree li {
+float:left;
+text align:center;
+list-style-type:none;
+position:relative;
+padding:20px 5px 0 50px;
+}
+.tree li a {
+border: 1px solid #ccc;
+padding:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:4px;
+display:inline-block;
+}
+.tree li::before .tree li::after{
+content:";
+position:absolute;
+border-top:1px solid #ccc;
+width:50%;
+height:20px;
+top: 0;
+right:50%;
+}
+.tree li::after {
+right:auto;
+left:50%;
+border-left: 1px solid #ccc;
+}
+.tree ul {
+padding-top:20px;
+}
+.tree li:only-child::after,.tree li:only-child::before {
+display:none;
+}
