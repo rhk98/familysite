@@ -1,28 +1,48 @@
 @charset "utf-8";
 /* CSS Document*/
 body {
-background-image:url('http://www.wallpaperun.com/wp-content/uploads/2016/03/1366x768-Wallpaper-Image-H5S.jpg');
+background: url(RHK1.jpg);
+background-size: 90% 100%;
+background-position:center;
 background-repeat:no-repeat;
-background-size:cover;
-background-attachment:fixed;
 }
 #BigTitle {
 text-align:center;
 font-size:50px;
 font-weight:bold;
 font-family:'Sans-serif', Arial;
-color:#FFFFFF
+color:#000000
 }
 #FirstText {
 text-align:center;
 font-size:30px;
 font-weight:bold;
 font-family:'Sans-serif'. Arial;
-color:#FFFFFF;
+color:#000000;
 }
 #BekhalLink {
 font-size:32px;
 font-family:'Sans-serif'. Arial;
-color:#00FFFF;
+color:#000000;
 margin-left:22%;
 }
+#BekhalLink:hover {
+text-decoration:underline;
+}
+#familytree {
+font-size:32px;
+font-family:'Sans-serif'. Arial;
+color:#000000;
+}
+#plantationlink {
+font-size:32px;
+font-family:'Sans-serif'. Arial;
+color:#000000;
+}
+table, th, td {
+width: 800px;
+}
+
+
+
+

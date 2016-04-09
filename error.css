@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document*/
+body {
+background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAA1BMVEXdAAAiK5u5AAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeA8XKAAFZcBBuAAAAAElFTkSuQmCC');
+background-size:cover;
+}
+#error {
+text-align:center;
+font-size:25px;
+font-family:'Sans-serif', Arial;
+color:#FFFFFF;
+}
+#errorLink {
+text-align:center;
+font-size:25px;
+font-family:'Sans-serif', Arial;
+}
